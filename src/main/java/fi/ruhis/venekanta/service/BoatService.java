@@ -7,7 +7,7 @@ import java.util.List;
 public interface BoatService {
     List<Boat> getBoats();
 
-    void saveBoat(Boat boat);
+    Boat saveBoat(Boat boat);
 
     Boat getBoat(int id);
 
